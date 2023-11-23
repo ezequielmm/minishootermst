@@ -1,0 +1,23 @@
+{
+    "name": "MiniShooter",
+    "rootNamespace": "",
+    "references": [
+        "MasterServerToolkit",
+        "MasterServerToolkit.Editor",
+        "Unity.InputSystem",
+        "Cinemachine",
+        "Unity.TextMeshPro",
+        "Mirror",
+        "Mirror.Transports",
+        "SimpleWebTransport"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

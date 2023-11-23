@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 165a3ddccfe2f004ab93c92f197d72a9
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Semi-Sweet
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 10d124e9b04d97a4ea2f84d6a563e929, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

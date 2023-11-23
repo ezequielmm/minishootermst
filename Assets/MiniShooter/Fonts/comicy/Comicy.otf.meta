@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: df2803e2cd8af3e43aada474ef38a072
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Comicy
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: fa416849f2a870f498c5ee4e1460a09b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
