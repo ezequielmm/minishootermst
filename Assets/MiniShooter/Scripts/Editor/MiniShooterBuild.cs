@@ -30,8 +30,8 @@ namespace MiniShooter.Editor
                 scenes = new[] {
                     "Assets/MiniShooter/Scenes/Room/Room.unity"
                 },
-                locationPathName = Path.Combine(buildFolder, "Room.exe"),
-                target = BuildTarget.StandaloneWindows64,
+                locationPathName = Path.Combine(buildFolder, "Room.x64"),
+                target = BuildTarget.StandaloneLinux64,
 #if UNITY_2021_1_OR_NEWER
                 options = BuildOptions.ShowBuiltPlayer | BuildOptions.Development,
                 subtarget = isHeadless ? (int)StandaloneBuildSubtarget.Server : (int)StandaloneBuildSubtarget.Player
@@ -69,13 +69,13 @@ namespace MiniShooter.Editor
         private static void BuildMasterAndSpawnerForWindows()
         {
             string buildFolder = Path.Combine("Builds", "MiniShooter", "MasterAndSpawner");
-            string roomExePath = Path.Combine(Directory.GetCurrentDirectory(), "Builds", "MiniShooter", "Room", "Room.exe");
+            string roomExePath = Path.Combine(Directory.GetCurrentDirectory(), "Builds", "MiniShooter", "Room", "Room.x64");
 
             BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions
             {
                 scenes = new[] { "Assets/MiniShooter/Scenes/Master/Master.unity" },
-                locationPathName = Path.Combine(buildFolder, "MasterAndSpawner.exe"),
-                target = BuildTarget.StandaloneWindows64,
+                locationPathName = Path.Combine(buildFolder, "MasterAndSpawner.x64"),
+                target = BuildTarget.StandaloneLinux64,
 #if UNITY_2021_1_OR_NEWER
                 options = BuildOptions.ShowBuiltPlayer | BuildOptions.Development,
                 subtarget = (int)StandaloneBuildSubtarget.Server
@@ -121,8 +121,8 @@ namespace MiniShooter.Editor
                 scenes = new[] {
                     "Assets/MiniShooter/Scenes/Spawner/Spawner.unity"
                 },
-                locationPathName = Path.Combine(buildFolder, "Spawner.exe"),
-                target = BuildTarget.StandaloneWindows64,
+                locationPathName = Path.Combine(buildFolder, "Spawner.x64"),
+                target = BuildTarget.StandaloneLinux64,
 #if UNITY_2021_1_OR_NEWER
                 options = BuildOptions.ShowBuiltPlayer | BuildOptions.Development,
                 subtarget = (int)StandaloneBuildSubtarget.Server

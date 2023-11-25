@@ -669,7 +669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   logLevel: 0
   isGlobal: 1
-  serverIp: 127.0.0.1
+  serverIp: 18.215.170.88
   serverPort: 5000
   timeout: 5
   maxAttemptsToConnect: 5
@@ -2618,6 +2618,39 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 691117578}
   m_CullTransparentMesh: 1
+--- !u!1 &718929941 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1136395876536012383, guid: e97618d10eb75f24aaf85dec2100ca03,
+    type: 3}
+  m_PrefabInstance: {fileID: 2074408555}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &718929946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718929941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b0fecffa3f624585964b0d0eb21b18e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Port: 7777
+  DualMode: 1
+  NoDelay: 1
+  Interval: 10
+  Timeout: 10000
+  FastResend: 2
+  SendWindowSize: 4096
+  ReceiveWindowSize: 4096
+  MaxRetransmit: 40
+  MaximizeSocketBuffers: 1
+  ReliableMaxMessageSize: 298449
+  UnreliableMaxMessageSize: 1199
+  debugLog: 0
+  statisticsGUI: 0
+  statisticsLog: 0
 --- !u!1001 &738698348
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7053,6 +7086,11 @@ PrefabInstance:
       propertyPath: OnRoomRegisterFailedEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: MasterServerToolkit.Bridges.FishNetworking.RoomNetworkManager, MasterServerToolkit
       objectReference: {fileID: 0}
+    - target: {fileID: 7747958195807439862, guid: e97618d10eb75f24aaf85dec2100ca03,
+        type: 3}
+      propertyPath: transport
+      value: 
+      objectReference: {fileID: 718929946}
     - target: {fileID: 8816710018224318605, guid: e97618d10eb75f24aaf85dec2100ca03,
         type: 3}
       propertyPath: _useWss
@@ -7076,7 +7114,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1136395876536012383, guid: e97618d10eb75f24aaf85dec2100ca03,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 718929946}
   m_SourcePrefab: {fileID: 100100000, guid: e97618d10eb75f24aaf85dec2100ca03, type: 3}
 --- !u!224 &2083699881 stripped
 RectTransform:
